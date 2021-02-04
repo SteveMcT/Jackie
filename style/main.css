@@ -13,6 +13,10 @@ head {
   font-family: 'Roboto', Helvetica, Arial;
 }
 
+#nooverflow {
+  overflow-x: hidden;
+}
+
 button {
   cursor: pointer;
 }
