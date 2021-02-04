@@ -17,6 +17,22 @@ head {
   overflow-x: hidden;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f9f301;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1b1b1b;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0c0c0c;
+}
+
 button {
   cursor: pointer;
 }

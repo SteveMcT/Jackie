@@ -17,6 +17,21 @@ head {
     overflow-x: hidden;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(249, 243, 1);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(27, 27, 27);
+    &:hover {
+        background: rgb(12, 12, 12);
+    }
+}
+
 button {
     cursor: pointer;
 }
