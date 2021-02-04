@@ -114,10 +114,10 @@ main #panel2 section:hover div {
 
 @media only screen and (max-width: 1200px) {
   #panel2 section {
-    width: 80%;
+    width: 80% !important;
     position: relative;
     display: block;
-    left: 10%;
+    left: 5%;
   }
 }
 /*# sourceMappingURL=index.css.map */
