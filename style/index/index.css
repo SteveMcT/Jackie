@@ -18,31 +18,59 @@ header h1 {
 }
 
 main #panel1 {
-  width: 700px;
   position: relative;
-  float: right;
-  text-align: right;
-  margin: 110px 30px 0 0;
+  width: 100vw;
 }
 
-main #panel1 #smolLine {
+main #panel1 #pr {
+  float: right;
+  margin: calc(1vh + 10vw) 5% 0 0;
+  max-width: 50%;
+}
+
+main #panel1 #pr #smolLine {
   float: right;
   width: 160px;
   height: 4px;
   background: #f9f301;
+  margin: 3px 0;
 }
 
-main #panel1 h1 {
+main #panel1 #pr h1 {
   font-size: 84px;
+  text-align: right;
   float: right;
+  position: relative;
 }
 
-main #panel1 button {
+main #panel1 #pr button {
   background: #f9f301;
   padding: 24px 44px;
   color: #171717;
   font-size: 34px;
-  margin-top: 8px;
   font-weight: 600;
+  margin-top: 8px;
+  float: right;
+}
+
+main #panel2 {
+  position: relative;
+  width: 100%;
+  padding: 5%;
+  float: left;
+}
+
+main #panel2 section {
+  width: 28%;
+  margin: 1%;
+  height: 400px;
+  background: #30302F;
+  display: inline-block;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+main #panel2 section:hover {
+  background: #f9f301;
 }
 /*# sourceMappingURL=index.css.map */
