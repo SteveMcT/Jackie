@@ -116,3 +116,22 @@ main {
         }
     }
 }
+
+@media only screen and (max-width: 800px) {
+    #panel1 {
+        #pr {
+            max-width: 100vw !important;
+            h1 {
+                font-size: 60px !important;
+            }
+        }
+    }
+    #panel2 section {
+        h2 {
+            font-size: 46px !important;
+        }
+        p {
+            font-size: 22px !important;
+        }
+    }
+}
