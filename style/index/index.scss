@@ -52,12 +52,11 @@ main {
     #panel2 {
         position: relative;
         width: 100%;
-        padding: 5%;
         float: left;
+        padding: 5%;
         section {
             width: 28%;
             margin: 1%;
-            min-height: 400px;
             background: #30302F;
             display: inline-block;
             transition: .4s;
@@ -81,6 +80,7 @@ main {
                 position: relative;
                 left: 30px;
                 width: calc(100% - 60px);
+                margin-bottom: 40px;
             }
             &:hover {
                 svg {
@@ -101,9 +101,18 @@ main {
 
 @media only screen and (max-width: 1200px) {
     #panel2 section {
+        padding: 5%;
         width: 80% !important;
         position: relative;
         display: block;
-        left: 5%;
+        h2 {
+            font-size: 52px !important;
+        }
+        div {
+            width: 30% !important;
+        }
+        p {
+            font-size: 32px !important;
+        }
     }
 }

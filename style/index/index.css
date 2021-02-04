@@ -56,14 +56,13 @@ main #panel1 #pr button {
 main #panel2 {
   position: relative;
   width: 100%;
-  padding: 5%;
   float: left;
+  padding: 5%;
 }
 
 main #panel2 section {
   width: 28%;
   margin: 1%;
-  min-height: 400px;
   background: #30302F;
   display: inline-block;
   -webkit-transition: .4s;
@@ -93,6 +92,7 @@ main #panel2 section p {
   position: relative;
   left: 30px;
   width: calc(100% - 60px);
+  margin-bottom: 40px;
 }
 
 main #panel2 section:hover {
@@ -114,10 +114,19 @@ main #panel2 section:hover div {
 
 @media only screen and (max-width: 1200px) {
   #panel2 section {
+    padding: 5%;
     width: 80% !important;
     position: relative;
     display: block;
-    left: 5%;
+  }
+  #panel2 section h2 {
+    font-size: 52px !important;
+  }
+  #panel2 section div {
+    width: 30% !important;
+  }
+  #panel2 section p {
+    font-size: 32px !important;
   }
 }
 /*# sourceMappingURL=index.css.map */
