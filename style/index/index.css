@@ -62,6 +62,7 @@ main #panel2 {
 
 main #panel2 section {
   width: 28%;
+  min-height: 30px;
   margin: 1%;
   background: #30302F;
   display: inline-block;
@@ -142,6 +143,25 @@ main #panel2 section:hover div {
   }
   #panel2 section p {
     font-size: 22px !important;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  #panel1 #pr h1 {
+    font-size: 220px !important;
+  }
+  #panel1 #pr button {
+    font-size: 124px !important;
+  }
+  #panel2 section {
+    padding: 4%;
+    width: 20% !important;
+  }
+  #panel2 section h2 {
+    font-size: 98px !important;
+  }
+  #panel2 section p {
+    font-size: 52px !important;
   }
 }
 /*# sourceMappingURL=index.css.map */
