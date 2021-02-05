@@ -61,13 +61,13 @@ main #panel2 {
 }
 
 main #panel2 section {
-  width: 28%;
-  min-height: 30px;
+  width: 26%;
   margin: 1%;
-  background: #30302F;
   display: inline-block;
+  background: #30302F;
   -webkit-transition: .4s;
   transition: .4s;
+  padding: 1%;
   vertical-align: top;
 }
 
@@ -96,6 +96,14 @@ main #panel2 section p {
   margin-bottom: 40px;
 }
 
+main #panel2 section p a {
+  color: #fff;
+}
+
+main #panel2 section p a:hover {
+  color: #1d1d1d;
+}
+
 main #panel2 section:hover, main #panel2 section:first-child {
   background: #f9f301;
 }
@@ -114,20 +122,21 @@ main #panel2 section:hover div, main #panel2 section:first-child div {
   background: #000;
 }
 
+main #panel2 section:hover a {
+  color: #000;
+}
+
 @media only screen and (max-width: 1200px) {
   #panel2 section {
-    padding: 5%;
-    width: 80% !important;
-    position: relative;
-    display: block;
-  }
-  #panel2 section h2 {
+    width: 88% !important;
+    margin-bottom: 30px !important;
     font-size: 52px !important;
   }
   #panel2 section div {
     width: 30% !important;
   }
-  #panel2 section p {
+  #panel2 section p,
+  #panel2 section a {
     font-size: 32px !important;
   }
 }
@@ -142,12 +151,13 @@ main #panel2 section:hover div, main #panel2 section:first-child div {
   #panel2 section h2 {
     font-size: 46px !important;
   }
-  #panel2 section p {
+  #panel2 section p,
+  #panel2 section a {
     font-size: 22px !important;
   }
 }
 
-@media only screen and (min-width: 2000px) {
+@media only screen and (min-width: 2400px) {
   #panel1 #pr h1 {
     font-size: 220px !important;
   }
@@ -156,13 +166,52 @@ main #panel2 section:hover div, main #panel2 section:first-child div {
   }
   #panel2 section {
     padding: 4%;
-    width: 20% !important;
   }
   #panel2 section h2 {
     font-size: 98px !important;
   }
-  #panel2 section p {
+  #panel2 section p,
+  #panel2 section a {
     font-size: 52px !important;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  #panel1 #pr h1 {
+    font-size: 120px !important;
+  }
+  #panel1 #pr button {
+    font-size: 84px !important;
+  }
+  #panel2 section {
+    padding: 4%;
+  }
+  #panel2 section h2 {
+    font-size: 69px !important;
+  }
+  #panel2 section p,
+  #panel2 section a {
+    font-size: 42px !important;
+  }
+}
+
+@media only screen and (min-width: 3250px) {
+  #panel1 #pr h1 {
+    margin-top: 180px !important;
+    font-size: 190px !important;
+  }
+  #panel1 #pr button {
+    font-size: 124px !important;
+  }
+  #panel2 section {
+    padding: 4%;
+  }
+  #panel2 section h2 {
+    font-size: 122px !important;
+  }
+  #panel2 section p,
+  #panel2 section a {
+    font-size: 58px !important;
   }
 }
 /*# sourceMappingURL=index.css.map */
