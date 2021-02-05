@@ -83,7 +83,8 @@ main {
                 width: calc(100% - 60px);
                 margin-bottom: 40px;
             }
-            &:hover {
+            &:hover,
+            &:first-child {
                 svg {
                     fill: #000;
                 }

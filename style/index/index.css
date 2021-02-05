@@ -96,20 +96,21 @@ main #panel2 section p {
   margin-bottom: 40px;
 }
 
-main #panel2 section:hover {
+main #panel2 section:hover, main #panel2 section:first-child {
   background: #f9f301;
 }
 
-main #panel2 section:hover svg {
+main #panel2 section:hover svg, main #panel2 section:first-child svg {
   fill: #000;
 }
 
 main #panel2 section:hover h2,
-main #panel2 section:hover p {
+main #panel2 section:hover p, main #panel2 section:first-child h2,
+main #panel2 section:first-child p {
   color: #000;
 }
 
-main #panel2 section:hover div {
+main #panel2 section:hover div, main #panel2 section:first-child div {
   background: #000;
 }
 
