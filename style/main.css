@@ -22,15 +22,15 @@ head {
 }
 
 ::-webkit-scrollbar-track {
-  background: #f9f301;
-}
-
-::-webkit-scrollbar-thumb {
   background: #1b1b1b;
 }
 
+::-webkit-scrollbar-thumb {
+  background: #f9f301;
+}
+
 ::-webkit-scrollbar-thumb:hover {
-  background: #0c0c0c;
+  background: #d6d300;
 }
 
 button {

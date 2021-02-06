@@ -22,13 +22,13 @@ head {
 }
 
 ::-webkit-scrollbar-track {
-    background: rgb(249, 243, 1);
+    background: rgb(27, 27, 27);
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgb(27, 27, 27);
+    background: rgb(249, 243, 1);
     &:hover {
-        background: rgb(12, 12, 12);
+        background: rgb(214, 211, 0);
     }
 }
 
