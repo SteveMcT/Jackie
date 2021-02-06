@@ -104,21 +104,23 @@ main #panel2 section p a:hover {
   color: #1d1d1d;
 }
 
-main #panel2 section:hover, main #panel2 section:first-child {
+main #panel2 section:hover, main #panel2 section:nth-child(2) {
   background: #f9f301;
 }
 
-main #panel2 section:hover svg, main #panel2 section:first-child svg {
+main #panel2 section:hover svg, main #panel2 section:nth-child(2) svg {
   fill: #000;
 }
 
 main #panel2 section:hover h2,
-main #panel2 section:hover p, main #panel2 section:first-child h2,
-main #panel2 section:first-child p {
+main #panel2 section:hover p,
+main #panel2 section:hover a, main #panel2 section:nth-child(2) h2,
+main #panel2 section:nth-child(2) p,
+main #panel2 section:nth-child(2) a {
   color: #000;
 }
 
-main #panel2 section:hover div, main #panel2 section:first-child div {
+main #panel2 section:hover div, main #panel2 section:nth-child(2) div {
   background: #000;
 }
 
