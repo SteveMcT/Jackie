@@ -4,15 +4,16 @@ window.onload = () => {
 }
 window.onresize = () => {
     let sections = document.getElementsByClassName("needSameHeight")
-    for (let section of sections)
-        section.style.height = "0px !important"
     resize(sections)
 }
 
 function resize(sections) {
-    var height = 0
+    let height = 0
+    for (let section of sections)
+        section.style.height = "auto"
     for (let section of sections)
         if (section.offsetHeight > height) height = section.offsetHeight
+    console.log(height)
     for (let section of sections)
         section.style.height = height + "px"
 }
