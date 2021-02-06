@@ -44,13 +44,24 @@ main #panel1 #pr h1 {
 }
 
 main #panel1 #pr button {
-  background: #f9f301;
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+  position: relative;
+  border: 6px solid #f9f301;
+  background: rgba(255, 255, 255, 0.164);
   padding: 24px 44px;
   color: #171717;
   font-size: 34px;
   font-weight: 600;
   margin-top: 8px;
   float: right;
+  -webkit-transition: .8s;
+  transition: .8s;
+}
+
+main #panel1 #pr button:hover {
+  -webkit-box-shadow: inset 0 -200px 0 0 #f9f301;
+          box-shadow: inset 0 -200px 0 0 #f9f301;
 }
 
 main #panel2 {

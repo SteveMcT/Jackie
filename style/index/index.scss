@@ -39,13 +39,20 @@ main {
                 position: relative;
             }
             button {
-                background: $yellow;
+                backdrop-filter: blur(8px);
+                position: relative;
+                border: 6px solid $yellow;
+                background: rgba(255, 255, 255, 0.164);
                 padding: 24px 44px;
                 color: rgb(23, 23, 23);
                 font-size: 34px;
                 font-weight: 600;
                 margin-top: 8px;
                 float: right;
+                transition: .8s;
+                &:hover {
+                    box-shadow: inset 0 -200px 0 0 $yellow;
+                }
             }
         }
     }
