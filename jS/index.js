@@ -16,3 +16,10 @@ function resize(sections) {
     for (let section of sections)
         section.style.height = height + "px"
 }
+
+let iframe = false
+
+function openIframeJoin() {
+    document.getElementById('panel3').style.maxHeight = iframe ? "80px" : "1000px"
+    iframe = !iframe
+}

@@ -146,17 +146,23 @@ main #panel3 {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   float: left;
+  max-height: 80px;
+  -webkit-transition: .4s;
+  transition: .4s;
+  overflow: hidden;
 }
 
 main #panel3 button {
   position: relative;
   border: 6px solid #f9f301;
   color: #fff;
-  padding: 4px;
+  padding: 10px;
   text-decoration: none;
   font-weight: 600;
   font-size: 40px;
   background: transparent;
+  display: block;
+  margin-bottom: 20px;
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -166,13 +172,13 @@ main #panel3 button:hover {
           box-shadow: inset 0 0 0 40px #f9f301;
 }
 
-#panel4 {
+main #panel4 {
   position: relative;
   float: left;
   width: 100%;
 }
 
-#panel4 img {
+main #panel4 img {
   position: relative;
   left: 50%;
   -webkit-transform: translateX(-50%) rotate(4deg);
@@ -187,17 +193,17 @@ main #panel3 button:hover {
   transition: .5s;
 }
 
-#panel4 img:hover {
+main #panel4 img:hover {
   -webkit-transform: translateX(-50%) rotate(0);
           transform: translateX(-50%) rotate(0);
 }
 
-#panel4 img:nth-child(odd) {
+main #panel4 img:nth-child(odd) {
   -webkit-transform: translateX(-50%) rotate(-4deg);
           transform: translateX(-50%) rotate(-4deg);
 }
 
-#panel4 img:nth-child(odd):hover {
+main #panel4 img:nth-child(odd):hover {
   -webkit-transform: translateX(-50%) rotate(0);
           transform: translateX(-50%) rotate(0);
 }
