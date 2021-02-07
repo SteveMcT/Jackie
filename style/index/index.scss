@@ -1,4 +1,5 @@
 $yellow: rgb(249, 243, 1);
+$blue: rgb(114, 137, 218);
 header {
     position: relative;
     h1 {
@@ -124,24 +125,34 @@ main {
         left: 50%;
         transform: translateX(-50%);
         float: left;
-        max-height: 80px;
+        width: 60%;
+        padding: 20px;
         transition: .4s;
-        overflow: hidden;
+        border-radius: 20px;
+        background: rgb(19, 19, 19);
         button {
-            position: relative;
-            border: 6px solid $yellow;
-            color: #fff;
+            position: absolute;
+            background: transparent;
+            display: inline-block;
+            left: 5%;
+            top: 50%;
+            transform: translateY(-50%);
+            vertical-align: top;
             padding: 10px;
+            color: #fff;
+            border: 6px solid $blue;
             text-decoration: none;
             font-weight: 600;
             font-size: 40px;
-            background: transparent;
-            display: block;
-            margin-bottom: 20px;
             transition: .4s;
+            border-radius: 8px;
             &:hover {
-                box-shadow: inset 0 0 0 40px $yellow;
+                box-shadow: inset -4px -4px 2px 40px $blue;
             }
+        }
+        iframe {
+            float: right;
+            margin: 30px;
         }
     }
     #panel4 {
@@ -242,7 +253,7 @@ main {
             padding: 12px !important;
             font-size: 120px !important;
             &:hover {
-                box-shadow: inset 0 0 0 90px $yellow !important;
+                box-shadow: inset 0 0 0 90px $blue !important;
             }
         }
     }
