@@ -191,6 +191,7 @@ main #panel4 div {
 main #panel4 div img {
   display: inline-block;
   width: 40%;
+  border-radius: 30px;
 }
 
 main #panel4 div section {
@@ -223,7 +224,8 @@ main #panel4 #img2 {
 
 main #panel4 #img2 img {
   float: left;
-  padding-left: 80px;
+  margin-left: 80px;
+  border-radius: 30px;
 }
 
 main #panel4 #img2 section {
@@ -271,7 +273,8 @@ main #panel4 #img2 section p {
     margin-left: 10% !important;
   }
   #panel4 #img2 img {
-    padding: 10% !important;
+    margin: 10% !important;
+    border-radius: 30px !important;
   }
   footer {
     margin-top: 50px !important;

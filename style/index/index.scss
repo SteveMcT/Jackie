@@ -161,6 +161,7 @@ main {
             img {
                 display: inline-block;
                 width: 40%;
+                border-radius: 30px;
             }
             section {
                 width: 40%;
@@ -187,7 +188,8 @@ main {
             text-align: right;
             img {
                 float: left;
-                padding-left: 80px;
+                margin-left: 80px;
+                border-radius: 30px;
             }
             section {
                 float: left;
@@ -235,7 +237,8 @@ main {
                 margin-left: 10% !important;
             }
             img {
-                padding: 10% !important;
+                margin: 10% !important;
+                border-radius: 30px !important;
             }
         }
     }
