@@ -238,6 +238,43 @@ main #panel4 #img2 section p {
   float: right;
 }
 
+@media only screen and (max-width: 540px) {
+  #panel3 {
+    padding: 30px 25px !important;
+  }
+  #panel3 #textpanel {
+    width: 90% !important;
+  }
+  #panel3 button {
+    position: relative !important;
+    float: left !important;
+    left: 0 !important;
+    margin-top: 50px !important;
+  }
+  #panel4 div {
+    margin: 10px 0 !important;
+  }
+  #panel4 div section {
+    margin-top: 10px;
+    padding: 0 !important;
+  }
+  #panel4 div section h1 {
+    font-size: 30px !important;
+  }
+  #panel4 div section p {
+    font-size: 14px !important;
+  }
+  #panel4 #img2 {
+    margin-top: 40px !important;
+  }
+  #panel4 #img2 img {
+    padding: 10% !important;
+  }
+  footer {
+    margin-top: 50px !important;
+  }
+}
+
 @media only screen and (max-width: 1200px) {
   #panel2 section {
     width: 88% !important;
@@ -281,21 +318,6 @@ main #panel4 #img2 section p {
   #panel2 section p,
   #panel2 section a {
     font-size: 22px !important;
-  }
-}
-
-@media only screen and (max-width: 540px) {
-  #panel3 {
-    padding: 30px 25px !important;
-  }
-  #panel3 #textpanel {
-    width: 90% !important;
-  }
-  #panel3 button {
-    position: relative !important;
-    float: left !important;
-    left: 0 !important;
-    margin-top: 50px !important;
   }
 }
 
