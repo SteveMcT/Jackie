@@ -51,11 +51,25 @@ footer {
   float: left;
   position: relative;
   width: 100%;
+  background: #30302F;
+  margin-top: 60px;
 }
 
 footer p {
-  padding: 15px 0;
   font-size: 20px;
+}
+
+footer #footer-text {
+  width: 30%;
+  padding: 40px 30px;
+}
+
+footer #footer-text h1 {
+  font-size: 50px;
+}
+
+footer #cop {
   text-align: center;
+  margin-bottom: 20px;
 }
 /*# sourceMappingURL=main.css.map */
