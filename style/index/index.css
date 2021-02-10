@@ -267,6 +267,9 @@ main #panel4 #img2 section p {
   #panel4 #img2 {
     margin-top: 40px !important;
   }
+  #panel4 #img2 section {
+    margin-left: 10% !important;
+  }
   #panel4 #img2 img {
     padding: 10% !important;
   }
